@@ -1,3 +1,4 @@
+import pandas as pd
 serial_killers = [
     ["Jack the Ripper", 1887, 1888, 5 ],
     ["Jeffrey Dahmer", 1974, 1991, 17 ],
@@ -13,3 +14,5 @@ headers = [
     "Victim Count",
 
 ] 
+sk = pd.DataFrame(serial_killers, columns=headers)
+print(sk)
