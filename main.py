@@ -3,11 +3,11 @@ serial_killers = [
     ["Jack the Ripper", 1887, 1888, 5, "Knife Wound, Multilation" ],
     ["Jeffrey Dahmer", 1974, 1991, 17, "Strangulation"],
     ["Harold Shipman", 1972, 1998, 250, "Morphine Overdose" ],
-    ["John Wayne Gacy", 1978, 1994, 33, "Asphhyxiation with garrot"],
+    ["John Wayne Gacy", 1978, 1994, 33, "Asphyxiation with garrot"],
     ["H.H. Holmes", 1983, 1986, 30, "Hanged"], 
-    ['Luis Garavito', 1992, 1999, 147, "Stabbing, Mutilation",
+    ['Luis Garavito', 1992, 1999, 147, "Stabbing, Mutilation"],
     ['Henry Lee Lucas', 1946, 1983, 41 "Stabbing"]
-    ]
+    
 
 ]
 headers = [ 
@@ -32,8 +32,6 @@ serial_killer_ladies = [
     ['Dorotha Puente', 1982, 1988, 9, "Drug Overdose" ],
     ['Miyuki Ishikawa', 1944, 1948, 169, 'Neglect']
 
-
-
 ]
 
 headers2 = [ 
@@ -44,3 +42,4 @@ headers2 = [
     "Modus Operandi"
 
 ] 
+skw = pd.DataFrame(serial_killer_ladies, columns=headers2)

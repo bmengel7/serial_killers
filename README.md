@@ -4,4 +4,19 @@ In recent years, serial killers have grown in popularity in mainstream media. Do
 
 I will be comparing numbers from the height of killing to today as well as the comparison of male serial killers to women serial killers. Noting the difference between both and the suspected reasons why one group is larger than the other. 
 
+## Setup
+### Create a Virtual Environment
+
+
+
+
+
+### Install Dependencies 
+
+
+
+### Run
+
+
+
 
