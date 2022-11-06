@@ -16,6 +16,7 @@ headers = [
     "To",
     "Victim Count",
     "Modus Operandi"
+    "Gender"
 
 ] 
 sk = pd.DataFrame(serial_killers, columns=headers)
