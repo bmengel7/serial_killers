@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 serial_killers = [
     ["Jack the Ripper", 1887, 1888, 5, "Knife Wound, Multilation" ],
     ["Jeffrey Dahmer", 1974, 1991, 17, "Strangulation"],
@@ -44,3 +45,13 @@ headers2 = [
 
 ] 
 skw = pd.DataFrame(serial_killer_ladies, columns=headers2)
+
+sk['duration'] = 1 + sk['To'].astype(int) - sk['From'].astype(int)
+
+
+sk['rate'] = sk['Victim Count'] /  sk['duration']
+
+
+# plot rates by killer (simple for example)
+
+sk['rate'].plot(kind="bar")
