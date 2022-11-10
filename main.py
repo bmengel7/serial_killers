@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+# read in a file from CSV file 
 serial_killers = [
     ["Jack the Ripper", 1887, 1888, 5, "Knife Wound, Multilation", "Male"],
     ["Jeffrey Dahmer", 1974, 1991, 17, "Strangulation", "Male"],
@@ -31,7 +32,7 @@ headers = [
 
 ] 
 skm = pd.DataFrame(serial_killers, columns=headers)
-
+#change function to read.csv point to data file. Must pull data from CSV. Use Excel to store.
 
 skm['duration'] = 1 + skm['To'].astype(int) - skm['From'].astype(int)
 
@@ -46,3 +47,4 @@ skm['rate'].plot(kind="bar")
 
 # plot rates by killer (simple for example)
 
+# Need to do some form of cleaning. Add in extra data/edits to "clean"
