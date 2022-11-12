@@ -45,6 +45,7 @@ skm['rate'] = skm['Victim Count'] /  skm['duration']
 skm['rate'].plot(kind="bar")
 
 
+
 # plot rates by killer (simple for example)
 
 # Need to do some form of cleaning. Add in extra data/edits to "clean"
