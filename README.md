@@ -19,7 +19,9 @@ I will be comparing numbers from the height of killing to today as well as the c
 
 
 ### Run
-1. `open serial_killers.ipynb`
+1. `jupyter notebook`
+2. `open serial_killers.ipynb`
+
 
 
 
