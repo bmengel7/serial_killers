@@ -6,17 +6,20 @@ I will be comparing numbers from the height of killing to today as well as the c
 
 ## Setup
 ### Create a Virtual Environment
+1. `python -m venv venv`
+1. ` venv\Scripts\activate`
 
 
 
 
 
 ### Install Dependencies 
+1. `pip install requirements.txt`
 
 
 
 ### Run
-
+1. `open serial_killers.ipynb`
 
 
 
